@@ -8,6 +8,7 @@ function App(): JSX.Element {
         <div className="App">
             Counter: {count}
             <button onClick={()=>SetCount(count+1)}>Click me!</button>
+            <button onClick={()=>SetCount(count-1)}>Minus me!</button>
         </div>
     );
 }
