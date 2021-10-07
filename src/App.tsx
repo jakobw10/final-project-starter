@@ -7,9 +7,11 @@ import "reactjs-popup/dist/index.css";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <Popup trigger={<button className="button">Trigger</button>} position="center center">
-                <div><h1>Welcome to website!!</h1></div>
-            </Popup>
+            <div className="popup">
+                <Popup trigger={<button className="button">button</button>} position="center center">
+                    <div><h1>Welcome to website!!</h1></div>
+                </Popup>
+            </div>
         </div>
     );
 }
